@@ -29,3 +29,21 @@
 # QUESTÃO 3 ^^^^^^^^^^^^^^^^
 
 
+# d, m, a = map(int, input().split("/"))
+# l_trinta = [4, 6, 9, 11]
+# if d > 31:
+#     print("Data invalida")
+# elif m ==2 and d > 27:
+#     print("Data invalida")
+# elif m == l_trinta:
+#     if d > 30:
+#         print("Data invalida")
+# elif a > 2100 or a < 1900:
+#     print("Data invalida")
+# else:
+#     print("Data valida")
+# QUESTÃO 4 ^^^^^^^^^^^^^^^^
+
+
+
+
