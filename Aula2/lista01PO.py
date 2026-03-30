@@ -17,6 +17,6 @@ class Circulo():
         print(circunferencia)
 
 circulo_1 = Circulo(2)
-circulo_1.calculo_area
-circulo_1.calculo_circuferencia
+circulo_1.calculo_area()
+circulo_1.calculo_circuferencia()
 
