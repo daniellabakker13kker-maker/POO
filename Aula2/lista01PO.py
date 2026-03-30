@@ -8,5 +8,13 @@ class Circulo():
         self.raio = raio
         self.pi = 3
     
-    def calculo_area(self, raio, pi):
-        area = pi*(r**2)
+    def calculo_area(self):
+        area = self.pi*(self.raio**2)
+
+    def calculo_circuferencia(self):
+        circunferencia = 2 * self.pi * self.raio
+
+circulo_1 = Circulo(2)
+circulo_1.calculo_area
+circulo_1.calculo_circuferencia
+
