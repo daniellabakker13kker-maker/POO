@@ -5,8 +5,8 @@
 
 class Circulo():
     def __init__(self, raio):
-        self.raio =  raio
+        self.raio = raio
         self.pi = 3
     
-    def calculo_area(self):
+    def calculo_area(self, raio, pi):
         area = pi*(r**2)
