@@ -1,13 +1,16 @@
 class Circulo:
     def __init__(self, raio):
-        __self.raio = raio # type: ignore
+        self._raio = raio 
 
     def set_raio(self, novo_raio):
-        _Circulo__self.raio = novo_raio
-        print(__self.raio)
+        self._raio = novo_raio
 
-    def get_raio
+    def get_raio(self):
+        print(self._raio)
 
+    def calc_area(self):
+        area = 3 * (self_raio ** 2)
+        return area
 # uma pra REDEFINIR RAIO
 # uma pra PRINT RAIO
 # uma pra CALCULAR AREA (float)
