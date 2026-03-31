@@ -9,10 +9,21 @@ class Circulo:
         print(self._raio)
 
     def calc_area(self):
-        area = 3 * (self_raio ** 2)
-        return area
-# uma pra REDEFINIR RAIO
-# uma pra PRINT RAIO
-# uma pra CALCULAR AREA (float)
-# uma pra CALCULAR CIRCUNFERENCIA (float)
+        area = 3,14 * (self._raio ** 2)
+        print(area)
+    
+    def calc_circunferencia(self):
+        circuferencia = 2 * 3,14 * self._raio
+        print(circuferencia)
+
+forma1 = Circulo(2)
+forma1.get_raio
+forma1.calc_area
+forma1.calc_circunferencia
+forma1.set_raio(5)
+forma1.get_raio
+forma1.calc_area
+forma1.calc_circunferencia
+
+
 
