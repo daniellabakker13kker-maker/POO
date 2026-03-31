@@ -16,7 +16,8 @@ class Circulo:
         circuferencia = 2 * 3.14 * self._raio
         print(circuferencia)
 
-forma1 = Circulo(2)
+forma1 = Circulo()
+forma1.set_raio(2)
 forma1.get_raio()
 forma1.calc_area()
 forma1.calc_circunferencia()
